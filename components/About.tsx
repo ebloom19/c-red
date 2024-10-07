@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <section id="about" className="p-16 bg-secondary">
+    <section id="about" className="p-16 bg-secondary flex flex-col items-center justify-center">
       <div className="container">
         <div className="grid gap-8 md:grid-cols-2 items-center">
           <div>
@@ -19,7 +19,7 @@ const About = () => {
           </div>
           <div className="relative h-64 md:h-full">
             <Image
-              src="https://images.unsplash.com/photo-1630026317249-c1c68f5e7d9e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3"
+              src="/images/c-red-workshop.jpg"
               alt="C-Red Tuning workshop"
               layout="fill"
               objectFit="cover"

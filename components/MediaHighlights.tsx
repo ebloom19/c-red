@@ -6,7 +6,7 @@ const mediaItems = [
     title: 'Workshop Profile',
     publication: 'High Performance Imports | #88',
     description: 'Overview of the C-Red Team',
-    image: '/images/hpi-88-cpink2-cover.jpg',
+    image: '/images/workshop-profile.jpg',
     link: '/magazines/workshop-profile/',
   },
   {
@@ -28,7 +28,7 @@ const mediaItems = [
 
 const MediaHighlights = () => {
   return (
-    <section className="p-16 bg-background">
+    <section className="p-16 bg-background flex flex-col items-center justify-center">
       <div className="container">
         <h2 className="mb-12 text-3xl font-bold text-center">C-Red in the Media</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">

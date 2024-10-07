@@ -36,7 +36,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="p-16 bg-background">
+    <section id="services" className="p-16 bg-background flex flex-col items-center justify-center">
       <div className="container">
         <h2 className="mb-12 text-3xl font-bold text-center">Our Services</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
