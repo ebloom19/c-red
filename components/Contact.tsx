@@ -22,10 +22,10 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     console.log('Form submitted:', formData)
-    toast({
-      title: "Message Sent",
-      description: "We'll get back to you as soon as possible.",
-    })
+    // toast({
+    //   title: "Message Sent",
+    //   description: "We'll get back to you as soon as possible.",
+    // })
     setFormData({ name: '', email: '', message: '' })
   }
 
