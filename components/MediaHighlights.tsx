@@ -28,7 +28,7 @@ const mediaItems = [
 
 const MediaHighlights = () => {
   return (
-    <section className="py-16 bg-background">
+    <section className="p-16 bg-background">
       <div className="container">
         <h2 className="mb-12 text-3xl font-bold text-center">C-Red in the Media</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">

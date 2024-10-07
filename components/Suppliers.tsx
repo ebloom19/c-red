@@ -17,7 +17,7 @@ const suppliers = [
 
 const Suppliers = () => {
   return (
-    <section className="py-16 bg-secondary">
+    <section className="p-16 bg-secondary">
       <div className="container">
         <h2 className="mb-8 text-3xl font-bold text-center">Our Suppliers</h2>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">

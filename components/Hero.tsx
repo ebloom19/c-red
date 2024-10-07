@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 
 const Hero = () => {
   return (
-    <div className="relative h-[calc(100vh-4rem)] bg-black">
+    <div className="relative h-[calc(40vh-4rem)] bg-black">
       <Image
         src="https://images.unsplash.com/photo-1607603750909-408e193868c7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3"
         alt="Japanese tuned car"

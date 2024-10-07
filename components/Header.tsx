@@ -23,9 +23,9 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center space-x-4">
-          <Link href="/" className="flex items-center space-x-2">
-            <Image src="/images/logo.png" alt="C-Red Tuning Logo" width={40} height={40} />
-            <span className="hidden font-bold sm:inline-block">C-Red Tuning</span>
+          <Link href="/" className="flex items-center space-x-2 pl-10">
+            <Image src="/images/credlogo.png" alt="C-Red Tuning Logo" width={250} height={250} />
+            {/* <span className="hidden font-bold sm:inline-block">C-Red Tuning</span> */}
           </Link>
         </div>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">

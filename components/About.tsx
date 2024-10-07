@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <section id="about" className="py-16 bg-secondary">
+    <section id="about" className="p-16 bg-secondary">
       <div className="container">
         <div className="grid gap-8 md:grid-cols-2 items-center">
           <div>

@@ -30,7 +30,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="py-16 bg-background">
+    <section id="contact" className="p-16 bg-background">
       <div className="container">
         <h2 className="mb-8 text-3xl font-bold text-center">Contact Us</h2>
         <div className="max-w-md mx-auto">

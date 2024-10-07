@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Wrench, Gauge, Cpu, Battery, Car, Tools } from 'lucide-react'
+import { Wrench, Gauge, Cpu, Battery, Car, Cable } from 'lucide-react'
 
 const services = [
   {
@@ -30,13 +30,13 @@ const services = [
   {
     title: 'Regular Servicing',
     description: 'Keep your vehicle in top condition with our expert servicing.',
-    icon: Tools,
+    icon: Cable,
   },
 ]
 
 const Services = () => {
   return (
-    <section id="services" className="py-16 bg-background">
+    <section id="services" className="p-16 bg-background">
       <div className="container">
         <h2 className="mb-12 text-3xl font-bold text-center">Our Services</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
